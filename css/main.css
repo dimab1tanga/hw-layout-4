@@ -169,64 +169,38 @@ ul {
   /* margin-top: 94px; */
 }
 
-.icon-antena::before {
+.list-element::before {
   display: block;
   content: "";
   width: 270px;
   height: 120px;
-  outline: 1px solid tomato;
-  background-image: url(../images/antenna.svg);
+  /* outline: 1px solid tomato; */
   background-repeat: no-repeat;
   background-position: center;
   background-color: #f5f4fa;
+}
+
+.icon-antena::before {
+  background-image: url(../images/antenna.svg);
 }
 
 .icon-clock::before {
-  display: block;
-  content: "";
-  width: 270px;
-  height: 120px;
-  outline: 1px solid tomato;
   background-image: url(../images/clock.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #f5f4fa;
 }
 
 .icon-diagram::before {
-  display: block;
-  content: "";
-  width: 270px;
-  height: 120px;
-  outline: 1px solid tomato;
   background-image: url(../images/diagram.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #f5f4fa;
 }
 
 .icon-astronaut::before {
-  display: block;
-  content: "";
-  width: 270px;
-  height: 120px;
-  outline: 1px solid tomato;
   background-image: url(../images/astronaut.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #f5f4fa;
 }
 
 .features-list .list-element + .list-element {
   margin-left: 30px;
 }
 
-h3,
-p {
-  text-align: left;
-}
-
-.features-title-item {
+.features-title {
   margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 700;
@@ -235,38 +209,20 @@ p {
   text-transform: uppercase;
 }
 
-/* .features-title-item {
-  padding-top: 0px;
-}
-
-.features-title-item:first-child {
-  padding-top: 94px;
-} */
-
-/* .features-description {
-  color: #757575;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-} */
-
-/* .features-description-item {
-  padding-bottom: 0px;
-}
-
-.features-description-item:last-child {
-  padding-bottom: 94px;
-}
-
-.features-description-item {
-  margin-bottom: 6px;
-} */
-
 .features-list > h3 {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+h3,
+p {
+  text-align: left;
+}
+
+.text {
+  font-weight: 400;
+  font-style: 14px;
+  line-height: 1.71;
 }
 
 /* Border */
