@@ -237,46 +237,34 @@ ul {
   margin-top: 21px;
 }
 
-.icon-instagram {
+.link-item {
   height: 44px;
   width: 44px;
-  background-image: url(../images/instagram1.svg);
-  background-color: rgba(255, 255, 255, 0.1);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50px;
 }
 
+.icon-instagram {
+  background-image: url(../images/instagram1.svg);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 .icon-twitter {
-  height: 44px;
-  width: 44px;
   background-image: url(../images/twitter1.svg);
   background-color: rgba(255, 255, 255, 0.1);
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50px;
   margin-left: 10px;
 }
 
 .icon-facebook {
-  height: 44px;
-  width: 44px;
   background-image: url(../images/facebook1.svg);
   background-color: rgba(255, 255, 255, 0.1);
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50px;
   margin-left: 10px;
 }
 
 .icon-linkedin {
-  height: 44px;
-  width: 44px;
   background-image: url(../images/linkedin1.svg);
   background-color: rgba(255, 255, 255, 0.1);
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50px;
   margin-left: 10px;
 }
 
