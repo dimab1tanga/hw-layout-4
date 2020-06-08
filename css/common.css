@@ -25,6 +25,7 @@
 
 .header {
   background-color: var(--secondary-bgd-color);
+  border-bottom: 1px solid #ececec;
   /* outline: 2px solid tomato; */
   margin-bottom: 0px;
 }
@@ -128,16 +129,6 @@ ul {
   text-decoration: none;
 }
 
-.link-mail::before {
-  content: "";
-  width: 16px;
-  height: 11.2px;
-  margin-right: 10px;
-  background-image: url(../images/envelope.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
 .link-tel {
   display: inline-flex;
   align-items: center;
@@ -146,13 +137,37 @@ ul {
   margin-left: 50px;
 }
 
-.link-tel::before {
+.icon-mail {
+  width: 16px;
+  height: 11.2px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.icon-tel {
+  width: 10px;
+  height: 14.94px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+/* .link-mail::before {
+  content: "";
+  width: 16px;
+  height: 11.2px;
+  margin-right: 10px;
+  background-image: url(../images/envelope.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
+
+/* .link-tel::before {
   content: "";
   width: 10px;
   height: 14.94px;
   margin-right: 10px;
   background-image: url(../images/smartphone.svg);
-}
+} */
 
 /* Footer */
 
@@ -293,7 +308,7 @@ ul {
 }
 
 .sign-up::after {
-  content: "";
+  content: '';
   width: 24px;
   height: 24px;
   margin-left: 10px;

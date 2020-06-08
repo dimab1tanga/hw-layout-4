@@ -9,6 +9,9 @@
 
 .body {
   background-color: var(--primary-bgd-color);
+  color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .site-nav .link.current {
@@ -25,7 +28,8 @@
   display: flex;
   justify-content: center;
   /* outline: 3px solid blue; */
-  margin-bottom: 6px;
+  margin-top: 93px;
+  margin-bottom: 50px;
 }
 
 .button {

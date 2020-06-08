@@ -87,7 +87,7 @@ ul {
   background-size: cover; */
 
 .hero {
-  background-color: rgba(47, 48, 58, 0.8);
+  /* background-color: rgba(47, 48, 58, 0.8); */
   margin-top: 0px;
   margin-bottom: 6px;
   text-align: center;
@@ -169,31 +169,17 @@ ul {
   /* margin-top: 94px; */
 }
 
-.list-element::before {
-  display: block;
-  content: "";
+.list-element {
   width: 270px;
   height: 120px;
-  /* outline: 1px solid tomato; */
-  background-repeat: no-repeat;
-  background-position: center;
+  border-radius: 4px;
   background-color: #f5f4fa;
 }
 
-.icon-antena::before {
-  background-image: url(../images/antenna.svg);
-}
-
-.icon-clock::before {
-  background-image: url(../images/clock.svg);
-}
-
-.icon-diagram::before {
-  background-image: url(../images/diagram.svg);
-}
-
-.icon-astronaut::before {
-  background-image: url(../images/astronaut.svg);
+.features-icon {
+  width: 70px;
+  height: 70px;
+  margin: 25px 100px;
 }
 
 .features-list .list-element + .list-element {
@@ -219,10 +205,11 @@ p {
   text-align: left;
 }
 
-.text {
+.features-text {
   font-weight: 400;
-  font-style: 14px;
+  font-size: 14px;
   line-height: 1.71;
+  color: var(--secondary-text-color);
 }
 
 /* Border */
