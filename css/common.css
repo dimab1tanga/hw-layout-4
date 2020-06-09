@@ -51,6 +51,7 @@ ul {
   display: flex;
   align-items: center;
   width: 1200px;
+  height: 80px;
   padding-left: 15px;
   padding-right: 15px;
   /* outline: 3px solid tomato; */
