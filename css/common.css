@@ -176,7 +176,6 @@ ul {
   background-color: #2f303a;
   color: var(--title-text-color);
   /* outline: 3px solid black; */
-  margin-top: 0px;
 }
 
 .ftr-container {
@@ -232,6 +231,10 @@ ul {
   margin-bottom: 9px;
 }
 
+.contacts-mail:hover {
+  color: var(--accent-color);
+}
+
 .contacts-tel {
   color: rgba(255, 255, 255, 0.6);
   font-family: roboto, cursive;
@@ -239,6 +242,10 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
+}
+
+.contacts-tel:hover {
+  color: var(--accent-color);
 }
 
 .social-box {

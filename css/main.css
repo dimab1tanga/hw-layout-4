@@ -18,7 +18,7 @@
 } */
 
 body {
-  background-color: var(--primary-bgd-color);
+  background-color: var(--secondary-bgd-color);
   color: var(--primary-text-color);
   font-family: roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -79,8 +79,8 @@ ul {
 
 .hero {
   /* background-color: rgba(47, 48, 58, 0.8); */
-  margin-top: 0px;
-  margin-bottom: 6px;
+  padding-top: 0px;
+  padding-bottom: px;
   text-align: center;
   /* outline: 3px solid orchid; */
 }
@@ -131,7 +131,6 @@ ul {
 /* Features */
 
 .features {
-  background-color: #e5e5e5;
   padding-top: 94px;
   text-align: center;
   /* outline: 3px solid blue; */
@@ -216,9 +215,8 @@ p {
 
 /* Work */
 .work {
-  background-color: #e5e5e5;
-  margin-top: 94px;
-  margin-bottom: 94px;
+  /* padding-top: 94px; */
+  padding-bottom: 94px;
   /* outline: 3px solid orange; */
 }
 
@@ -276,7 +274,7 @@ p {
   /* outline: 3px solid teal; */
   margin-top: 0px;
   padding-top: 0px;
-  margin-bottom: 6px;
+  padding-bottom: 0px;
 }
 
 .team-container {
@@ -299,6 +297,7 @@ p {
 
 .team-list {
   display: flex;
+  padding-bottom: 94px;
 }
 
 .team-list .team-element + .team-element {
@@ -366,10 +365,9 @@ p {
 
 /* Clients */
 .clients {
-  background-color: #e5e5e5;
   /* outline: 3px solid red; */
-  margin-top: 0px;
-  margin-bottom: 6px;
+  padding-top: 0px;
+  padding-bottom: 94px;
 }
 
 .clients-container {
@@ -397,22 +395,19 @@ p {
   padding-top: 0px; */
 }
 
-.clients-list {
+.clients-list > .link {
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
-
-.clients-list:hover {
-  color: var(--accent-color);
+.clients-list > .link:hover {
+  border: 1px solid var(--accent-color);
 }
-
-.client {
+.link > .client {
   fill: #afb1b8;
 }
-
-.client:hover {
+.clients-list > .link:hover.link > .client {
   fill: var(--accent-color);
 }
 
